@@ -11,16 +11,44 @@ body{
 	font-family: 'Black Han Sans', sans-serif;
 	background-color: yellow;
 	color:white;
-	size: 14rem;
-	position: fixed;
+	font-size: 3rem;
+	position: relative;
 	left:50%;
 	top:50%;
 	transform:translate(-50%, -50%);
 	-webkit-transform:translate(-50%,-50%);
+	z-index: 1;
 }
 .imgdog{
-
+width: 50%;
+height: 70%;
+top:-60%;
+background-color:yellow;
+position:relative;
 }
 .mensaje{
-
+position:absolute;
+width: 50%;
+top:20%;
+margin-left: 50%;
+background-color: yellow;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:3.5rem;
+}
+#unete{
+	width:25%;
+	top:35%;
+    margin-left: 70%;
+	height: auto;
+	font-family: 'Black Han Sans', sans-serif;
+	background-color: yellow;
+	font-size: 1rem;
+    color:white;
+    text-align: center;
+}
+footer{
+width: 100%;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 1rem;
+text-align: center;
 }
