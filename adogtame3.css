@@ -50,3 +50,12 @@ body {
         -webkit-order: 3;
                order: 3;
     }
+    header {
+        display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 150px;
+    border: 1px solid #eebb55;
+    border-radius: 10px;
+    background: #fa7e7e;
+    }
