@@ -23,3 +23,19 @@ body {
         -webkit-order: 1;
                order: 1;
     }
+    article {
+        margin: 4px;
+        padding: 5px;
+        border: 1px solid #cccc33;
+        border-radius: 10px;
+        background: #5e71ff;
+        -webkit-flex: 3 1 30%;
+               flex: 3 1 30%;
+        -webkit-order: 2;
+               order: 2;
+       background-image:url(http://cdn.venezuelaaldia.com/wp-content/uploads/2018/09/Golden-Retriver.jpg);
+     background-repeat:no-repeat;
+      background-size:100%;
+     background-position:center center;
+      background-size:cover;
+    }
