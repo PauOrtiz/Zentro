@@ -39,3 +39,14 @@ body {
      background-position:center center;
       background-size:cover;
     }
+    aside {
+        margin: 4px;
+        padding: 5px;
+        border: 1px solid #8888bb;
+        border-radius: 10px;
+        background: #87ff8c;
+        -webkit-flex: 1 6 40%;
+               flex: 1 6 40%;
+        -webkit-order: 3;
+               order: 3;
+    }
