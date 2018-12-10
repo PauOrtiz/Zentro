@@ -1,0 +1,26 @@
+.navbar {
+        width:100%;
+        margin: 4px;
+        padding: 5px;
+        background: #87ff8c;
+        -webkit-flex: 1 6 20%;
+               flex: 1 6 20%;
+        -webkit-order: 1;
+               order: 1;
+        overflow:auto;
+    }
+   .navbar{ 
+     width: 100%;
+     float:right;
+     background-color:yellow;
+     overflow:auto;
+    }
+  .a {
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    font-size:1.5rem;
+  }
+  .active {
+  background-color: yellow;
+ }*
