@@ -1,0 +1,25 @@
+body {
+    font-family: arial, sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    background: #000001;
+}
+.main {
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-flow: row;
+       flex-flow: row;
+    nav {
+        margin: 4px;
+        padding: 5px;
+        border: 1px solid #8888bb;
+        border-radius: 10px;
+        background: #87ff8c;
+        -webkit-flex: 1 6 20%;
+               flex: 1 6 20%;
+        -webkit-order: 1;
+               order: 1;
+    }
