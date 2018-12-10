@@ -1,11 +1,8 @@
 .content {
-  position: absolute;
-  
+ position: absolute;
   top: 50%;
-  left: 50%;
-  
-    
-  transform: translate(-50%, -50%);
+  left: 50%;  
+  transform: translate(-50%, -20%);/*ejex ejey*/
   height: 160px;
   overflow:hidden;
   
@@ -51,12 +48,12 @@
     &__text {
       display: inline;
       float: left;
-      margin: 0;
+      margin: 1px;
     }
 
     &__list {
       margin-top: 19px;
-      padding-left: 260px; //control de los elementos de la lista
+      padding-left: 240px; /* control del ancho entre las palabras de la lista */
       text-align: left;
       list-style: none;
       
@@ -68,7 +65,7 @@
       animation-iteration-count: infinite;
 
       &__item {
-        line-height:41px;//control de distancia de los elementos de la lista
+        line-height:86px;// control de distancia de los elementos de la lista
         margin:0;
       }
     }
