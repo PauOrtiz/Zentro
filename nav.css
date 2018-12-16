@@ -2,25 +2,25 @@
         width:100%;
         margin: 4px;
         padding: 5px;
-        background: #87ff8c;
-        -webkit-flex: 1 6 20%;
-               flex: 1 6 20%;
-        -webkit-order: 1;
-               order: 1;
-        overflow:auto;
-    }
-   .navbar{ 
-     width: 100%;
-     float:right;
-     background-color:yellow;
-     overflow:auto;
-    }
-  .a {
+        background-color:pink;
+        overflow:hidden;
+        }
+.navbar a {
+    float:right;
+    display:block;
     text-align:center;
     text-decoration:none;
+    padding: 14px 16px;
     color:white;
     font-size:1.5rem;
+    }
+    .active {
+  background-color: blue;   
   }
-  .active {
-  background-color: yellow;
- }*
+.navbar a:hover{
+  background-color:red;
+  color:yellow;
+}
+.navbar .icon{
+  display:none; /*mostrar u ocultar elementos para js*/
+}
